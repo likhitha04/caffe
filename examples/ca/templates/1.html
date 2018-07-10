@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    
+
+    <title>Caffe Demos</title>
+
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+      </head>
+
+  <body>
+    <!-- Begin page content -->
+    <div class="container">
+      <div class="page-header">
+        <h1>CAFFE</h1>
+      </div>
+      <form id="formupload" class="form-inline" role="form" action="load" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+          <label for="imagefile">upload an image:</label>
+          <input type="file" name="imagefile" id="imagefile">
+        </div>
+        <input type="submit" class="btn btn-primary" value="Classify File" id="classifyfile"></input>
+      </form>
+    </div>
+
+    <hr>
+ </body>
+</html>
